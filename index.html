@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mi Libro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MI LIBRO FAMILIAR</h1>
+    <img id="cel" src="https://m.media-amazon.com/images/I/61B6f0UQimL._AC_SX466_.jpg">;
+    <p id="hola">
+        <h4 id="nombres_de_familia"> 
+        </h4>;
+    </p>
+    <button onclick="update()" onclick=>Siguiente</button>
+    <script id="nombre_de_familia">
+        var family=["Mani","Isabella","Marifer","Tania","Marco"];
+        var imagenes=["family1","family2","family3","family4","family5"];
+var familia=1;
+function update(){
+  document.getElementById("hola").innerHTML=texto[familia];
+document.getElementById("cel").src=imagenes[familia];
+  familia++;
+  if (famillia>5){
+    familia=0;3;
+  }
+}
+    </script>
+</body>
+</html>

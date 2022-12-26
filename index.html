@@ -6,22 +6,22 @@
 </head>
 <body>
     <h1>MI LIBRO FAMILIAR</h1>
-    <img id="cel" src="https://m.media-amazon.com/images/I/61B6f0UQimL._AC_SX466_.jpg">;
+    <img height="400" width="400" id="cel" src="https://m.media-amazon.com/images/I/61B6f0UQimL._AC_SX466_.jpg">
     <p id="hola">
-        <h4 id="nombres_de_familia"> 
-        </h4>;
+        <h4 id="nombres_de_familia">LIBRO FAMILIAR 
+        </h4>
     </p>
     <button onclick="update()" onclick=>Siguiente</button>
     <script id="nombre_de_familia">
-        var family=["Mani","Isabella","Marifer","Tania","Marco"];
-        var imagenes=["family1","family2","family3","family4","family5"];
-var familia=1;
+        var family=["Mani","Isabella","Marifer","Tania","Marco","LIBRO FAMILIAR"];
+        var imagenes=["family1.jpg","family2.jpg","family3.jpg","family4.jpg","family5.jpg","https://m.media-amazon.com/images/I/61B6f0UQimL._AC_SX466_.jpg"];
+var familia=0;
 function update(){
-  document.getElementById("hola").innerHTML=texto[familia];
-document.getElementById("cel").src=imagenes[familia];
+  document.getElementById("hola").innerHTML=family[familia];
+document.getElementById("cel").src=imagenes[familia]
   familia++;
   if (famillia>5){
-    familia=0;3;
+    familia=6;0;
   }
 }
     </script>
